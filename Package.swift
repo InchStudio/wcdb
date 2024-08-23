@@ -1,4 +1,4 @@
-// swift-tools-version: 5.5
+// swift-tools-version: 5.10
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -9,7 +9,8 @@ let package = Package(
         .macOS(.v10_13),
         .watchOS(.v4),
         .tvOS(.v12),
-        .iOS(.v12)],
+        .iOS(.v12),
+        .visionOS(.v1)],
     products: [
         .library(name: "WCDBSwift", targets: ["WCDBSwift"]),
         .library(name: "WCDBSwiftDynamic", type: .dynamic, targets: ["WCDBSwift"]),

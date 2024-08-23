@@ -26,7 +26,7 @@
 #import "TestCase.h"
 #import <set>
 #import <sys/stat.h>
-#if TARGET_OS_IPHONE && !TARGET_OS_WATCH
+#if TARGET_OS_IPHONE && !TARGET_OS_WATCH && !TARGET_OS_VISION
 #import <UIKit/UIKit.h>
 #endif
 

@@ -25,7 +25,7 @@
 #import "OperationQueueForMemory.hpp"
 #import <Foundation/Foundation.h>
 
-#if TARGET_OS_IPHONE && !TARGET_OS_WATCH && !TARGET_OS_TV
+#if TARGET_OS_IPHONE && !TARGET_OS_WATCH && !TARGET_OS_TV && !TARGET_OS_VISION
 #import <UIKit/UIKit.h>
 
 namespace WCDB {
